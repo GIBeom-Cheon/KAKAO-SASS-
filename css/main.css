@@ -75,8 +75,10 @@ a {
 .preview .preview_column .preview_pic {
   height: 50px;
   width: 50px;
-  border-radius: 16px;
-  background-color: #422d20;
+  border-radius: 20px;
+  background-image: url(../img/5.jpg);
+  background-position: center center;
+  background-size: cover;
   margin-right: 16px;
 }
 .preview .preview_column .preview_nick {
@@ -131,7 +133,6 @@ a {
 .login_container {
   width: 100%;
   height: 100%;
-  background-color: #FAE100;
 }
 
 .login {
@@ -143,7 +144,7 @@ a {
 }
 .login .login_logo {
   height: 90px;
-  background-image: url("../img/login_logo.png"); /*컴파일 된 이후의 경로*/
+  background-image: url("https://i.pinimg.com/564x/89/9a/52/899a5218073d2b226e8c0ab09d166c35.jpg"); /*컴파일 된 이후의 경로*/
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto 100%;
@@ -186,12 +187,15 @@ a {
   margin-bottom: 7px;
 }
 .login_form .login_form_btn {
-  background-color: #422d20;
+  background: linear-gradient(to bottom left,#FF398D,#DD30C3, #8B41FE, #007CFE);
   color: #fff;
+  font-size: 14px;
+  font-weight: 900;
 }
 .login_form .login_form_btn:hover {
-  background-color: #fff;
-  color: #422d20;
+  background: linear-gradient(to top right,#FF398D,#DD30C3, #8B41FE, #007CFE);
+  font-size: 14px;
+  font-weight: 900;
 }
 .login_form .login_form_check {
   width: 16px;
@@ -224,23 +228,23 @@ a.preview_wrap .preview:hover {
 .chat_screen {
   height: calc(100% - 140px);
   overflow: auto;
-  background-color: #B2C7DA;
 }
 .chat_screen .chat_screen_bar {
   position: sticky;
   top: 0;
   z-index: 10;
+  background-color: #fff;
 }
 .chat_screen .chat_screen_bar .chat_nick {
   font-size: 1em;
 }
 
 .chat_user {
-  background-color: #B2C7DA;
 }
 
 .bubble_container {
   padding-top: 20px;
+  background: linear-gradient(to top right, rgba(255,255,255,0) 20%,rgba(255,255,255,1)), url(https://search.pstatic.net/sunny/?src=https%3A%2F%2Fi.pinimg.com%2F736x%2F8c%2F15%2F81%2F8c158140f098eae120bbd9a8acfb8edc--watercolour-flowers-watercolor-cards.jpg&type=sc960_832) no-repeat center center /100%;
 }
 
 .bubble_wrap {
